@@ -1,0 +1,15 @@
+﻿  正在验证源
+  正在将源远程复制到“192.168.40.128”
+  正在验证体系结构
+  正在验证体系结构
+  正在启动远程生成
+  正在编译源:
+  test.cpp
+D:\source\C++\pool\pool\ThreadPool.cpp(175,13): warning : conversion from ‘size_t’ {aka ‘long unsigned int’} to ‘int’ may change value [-Wconversion]
+D:\source\C++\pool\pool\ThreadPool.cpp(175,13): warning :   175 |         int queueSize = pool->taskQ->taskNumber();
+D:\source\C++\pool\pool\ThreadPool.cpp(175,13): warning :       |             ^~~~~~~~~
+D:\source\C++\pool\pool\ThreadPool.cpp(153,9): warning : deleting ‘void*’ is undefined [-Wdelete-incomplete]
+D:\source\C++\pool\pool\ThreadPool.cpp(153,9): warning :   153 |         delete task.arg;
+D:\source\C++\pool\pool\ThreadPool.cpp(153,9): warning :       |         ^~~~~~
+  正在链接对象
+  pool.vcxproj -> D:\source\C++\pool\pool\bin\x64\Debug\pool.out

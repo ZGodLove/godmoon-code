@@ -1,0 +1,1 @@
+g++ -o "/home/godmoon/projects/pool/bin/x64/Debug/pool.out" -Wl,--no-undefined -Wl,-z,relro -Wl,-z,now -Wl,-z,noexecstack /home/godmoon/projects/pool/obj/x64/Debug/TaskQueue.o /home/godmoon/projects/pool/obj/x64/Debug/test.o /home/godmoon/projects/pool/obj/x64/Debug/ThreadPool.o -lpthread
