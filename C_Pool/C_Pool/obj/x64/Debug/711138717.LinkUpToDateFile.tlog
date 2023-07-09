@@ -1,0 +1,1 @@
+g++ -o "/home/godmoon/projects/C_Pool/bin/x64/Debug/C_Pool.out" -Wl,--no-undefined -Wl,-z,relro -Wl,-z,now -Wl,-z,noexecstack /home/godmoon/projects/C_Pool/obj/x64/Debug/main.o /home/godmoon/projects/C_Pool/obj/x64/Debug/threadpool.o -lpthread
